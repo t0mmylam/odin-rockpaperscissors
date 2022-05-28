@@ -24,36 +24,6 @@ function playerPlay() {
     return(choice.toLowerCase());
 }
 
-function round(player, computer) {
-    if(player==computer) {
-        return("The game is a tie.");
-    }
-    else if(player=="scissors") {
-        if(computer=="rock") {
-            return("You lose. Rock crushes scissors.");
-        }
-        else {
-            return("You win! Scissors cuts paper!");
-        }
-    }
-    else if (player=="rock") {
-        if(computer=="paper") {
-            return("You lose. Paper covers rock.");
-        }
-        else {
-            return("You win! Rock crushes scissors!");
-        }
-    }
-    else {
-        if(computer=="rock") {
-            return ("You win! Paper covers rock!");
-        }
-        else {
-            return("You lose. Scissors cuts paper.");
-        }
-    }
-}
-
 function game(){
     let pScore = 0;
     let cScore = 0;
