@@ -1,0 +1,15 @@
+#buttons, #score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
